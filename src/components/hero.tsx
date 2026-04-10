@@ -22,27 +22,14 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex items-center justify-start text-left">
+      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full flex flex-col md:flex-row items-center justify-between gap-12">
+        {/* Left Column: Text & Actions */}
         <motion.div
            initial={{ opacity: 0, x: -50 }}
            animate={{ opacity: 1, x: 0 }}
            transition={{ duration: 0.8, ease: "easeOut" }}
-           className="space-y-8 max-w-2xl"
+           className="space-y-8 max-w-2xl text-left"
         >
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, ease: "easeOut" }}
-          >
-            <Image 
-              src="/images/logo/chaayalogo.png" 
-              alt="Chayya Branding" 
-              width={240} 
-              height={80} 
-              className="h-16 md:h-20 w-auto brightness-0 invert opacity-90 mb-4"
-            />
-          </motion.div>
-
           <div className="space-y-4">
             <motion.p 
               initial={{ opacity: 0 }}
@@ -75,6 +62,26 @@ export default function Hero() {
             >
               Find Us
             </Link>
+          </div>
+        </motion.div>
+
+        {/* Right Column: Adjusted Logo */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8, x: 30 }}
+          animate={{ opacity: 1, scale: 1, x: 0 }}
+          transition={{ duration: 1.2, ease: "easeOut" }}
+          className="hidden md:flex flex-1 justify-end items-center relative z-20"
+        >
+          <div className="relative translate-x-12"> {/* Small push towards the edge */}
+            {/* Decorative glow behind logo */}
+            <div className="absolute inset-0 bg-brand-accent/20 blur-[100px] rounded-full scale-150" />
+            <Image 
+              src="/images/logo/chaayalogo.png" 
+              alt="Chayya Branding" 
+              width={400} 
+              height={400} 
+              className="w-[320px] lg:w-[400px] h-auto brightness-0 invert opacity-90 transition-all duration-700 pointer-events-none"
+            />
           </div>
         </motion.div>
       </div>
