@@ -10,7 +10,7 @@ export default function MadeForCalicut() {
       {/* Background Texture Overlay */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none grayscale invert">
          <Image 
-            src="/images/calicut.png" 
+            src="/images/cafa_indoor2.png" 
             alt="textured background" 
             fill 
             className="object-cover"
@@ -56,8 +56,8 @@ export default function MadeForCalicut() {
             className="w-full md:w-1/2 h-[450px] relative rounded-[60px] overflow-hidden shadow-2xl skew-y-2 border-8 border-brand-primary/30"
         >
             <Image
-                src="/images/calicut.png"
-                alt="Calicut City Soul"
+                src="/images/cafa_indoor2.png"
+                alt="Chayya Interior"
                 fill
                 className="object-cover"
             />

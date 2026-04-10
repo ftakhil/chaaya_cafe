@@ -18,7 +18,7 @@ export default function About() {
         >
           <div className="relative h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/about.png"
+              src="/images/cafa_exterior.png"
               alt="Chayya Cafe Ambience"
               fill
               className="object-cover"

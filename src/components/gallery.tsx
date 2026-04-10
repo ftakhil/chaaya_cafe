@@ -5,10 +5,12 @@ import Image from "next/image";
 import SectionHeading from "./section-heading";
 
 const images = [
-  { src: "/images/about.png", alt: "Cafe Ambience", span: "row-span-2 col-span-2" },
-  { src: "/images/hero.png", alt: "Chai Preparation", span: "row-span-1 col-span-1" },
-  { src: "/images/menu.png", alt: "Snacks", span: "row-span-1 col-span-1" },
-  { src: "/images/calicut.png", alt: "Calicut Identity", span: "row-span-1 col-span-2" },
+  { src: "/images/cafa_food1.png", alt: "Delicacies", span: "row-span-2 col-span-2" },
+  { src: "/images/menu2.png", alt: "Fresh Sips", span: "row-span-1 col-span-1" },
+  { src: "/images/cafa_indoor.png", alt: "Warm Decor", span: "row-span-1 col-span-1" },
+  { src: "/images/menu3.png", alt: "Local Snacks", span: "row-span-1 col-span-1" },
+  { src: "/images/tea1.png", alt: "Signature Tea", span: "row-span-1 col-span-1" },
+  { src: "/images/cafa_exterior.png", alt: "Calicut Mornings", span: "row-span-1 col-span-2" },
 ];
 
 export default function Gallery() {

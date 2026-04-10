@@ -24,7 +24,7 @@ export default function FeaturedSpecials() {
             className="w-full lg:w-2/3 relative group rounded-[40px] overflow-hidden shadow-2xl h-[500px]"
           >
             <Image
-              src="/images/menu.png"
+              src="/images/menu2.png"
               alt="Signature Specials"
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-110"
