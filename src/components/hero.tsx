@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Background Image & Gradient */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero.png"
+          src="/images/hero1.png"
           alt="Premium Kerala Chaya"
           fill
           className="object-cover brightness-[0.8] transform scale-100"
